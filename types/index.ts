@@ -112,7 +112,7 @@ export interface ApiResponse<T> {
   data: T;
   cached: boolean;
   cachedAt?: number;
-  source: "tvmaze" | "cache";
+  source: "tvmaze" | "cache" |"Webhook"|"api";
 }
 
 export interface ShowsResponse extends ApiResponse<Show[]> {
