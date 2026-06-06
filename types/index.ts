@@ -87,7 +87,7 @@ export type Section = "popular" | "schedule" | "search";
 export interface LiveStatus {
   connected: boolean;
   lastSync: number | null;
-  source: "api" | "cache" | "webhook";
+   source: "tvmaze" | "cache" |"Webhook"|"api";
   showCount: number;
 }
 
